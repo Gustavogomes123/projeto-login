@@ -8,21 +8,23 @@
         Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 992px){/* configuração para tablet */
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     section#login{
-        width: 90vw;
+        width: 80vw;
+        height: 270px;
     }
     section#login > div#imagem {
         float: left;
         width: 30%;/* dps que eu coloquei esse float:left a imagem não vai aparecer no lado esquerdo, pois eu devo por uma largura para a imagem. */
         height: 100%;
     }
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 992px) {/* configuração para desktop */
         section#login {
             width: 950px;
+            height: 350px;
         }
         section#login > div#imagem{
             float: right;
